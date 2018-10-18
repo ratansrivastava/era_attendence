@@ -9,3 +9,6 @@ def lcd_clear():
 def lcd_print(str):
    ser.write(str)
    ser.write("\n;")
+lcd_clear()
+lcdfont_m()
+lcd_print("ERA DEVICE")
